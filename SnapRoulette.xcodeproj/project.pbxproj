@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A942679D332B217F4ECFBE0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AEE268467AF027C706114B7 /* libPods.a */; };
 		B8DBF3751A0E3096007D0A96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DBF3741A0E3096007D0A96 /* main.m */; };
 		B8DBF3781A0E3096007D0A96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DBF3771A0E3096007D0A96 /* AppDelegate.m */; };
-		B8DBF37B1A0E3096007D0A96 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DBF37A1A0E3096007D0A96 /* FirstViewController.m */; };
-		B8DBF37E1A0E3096007D0A96 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DBF37D1A0E3096007D0A96 /* SecondViewController.m */; };
+		B8DBF37B1A0E3096007D0A96 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DBF37A1A0E3096007D0A96 /* CameraViewController.m */; };
+		B8DBF37E1A0E3096007D0A96 /* RouletteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DBF37D1A0E3096007D0A96 /* RouletteViewController.m */; };
 		B8DBF3811A0E3096007D0A96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8DBF37F1A0E3096007D0A96 /* Main.storyboard */; };
 		B8DBF3831A0E3096007D0A96 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8DBF3821A0E3096007D0A96 /* Images.xcassets */; };
 		B8DBF3861A0E3096007D0A96 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8DBF3841A0E3096007D0A96 /* LaunchScreen.xib */; };
@@ -28,15 +29,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08621E5B150FD0F5559418A9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		6AEE268467AF027C706114B7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BACDBB5F5F81ADCE95CF25A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		B8DBF36F1A0E3096007D0A96 /* SnapRoulette.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapRoulette.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8DBF3731A0E3096007D0A96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8DBF3741A0E3096007D0A96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B8DBF3761A0E3096007D0A96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B8DBF3771A0E3096007D0A96 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B8DBF3791A0E3096007D0A96 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		B8DBF37A1A0E3096007D0A96 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		B8DBF37C1A0E3096007D0A96 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		B8DBF37D1A0E3096007D0A96 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		B8DBF3791A0E3096007D0A96 /* CameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		B8DBF37A1A0E3096007D0A96 /* CameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		B8DBF37C1A0E3096007D0A96 /* RouletteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RouletteViewController.h; sourceTree = "<group>"; };
+		B8DBF37D1A0E3096007D0A96 /* RouletteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RouletteViewController.m; sourceTree = "<group>"; };
 		B8DBF3801A0E3096007D0A96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B8DBF3821A0E3096007D0A96 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B8DBF3851A0E3096007D0A96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -50,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A942679D332B217F4ECFBE0 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,12 +68,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44E844ADBC37D384C49B65B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08621E5B150FD0F5559418A9 /* Pods.debug.xcconfig */,
+				9BACDBB5F5F81ADCE95CF25A /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B616DDFAEB10D52898D4F986 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6AEE268467AF027C706114B7 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B8DBF3661A0E3096007D0A96 = {
 			isa = PBXGroup;
 			children = (
 				B8DBF3711A0E3096007D0A96 /* SnapRoulette */,
 				B8DBF38E1A0E3097007D0A96 /* SnapRouletteTests */,
 				B8DBF3701A0E3096007D0A96 /* Products */,
+				44E844ADBC37D384C49B65B6 /* Pods */,
+				B616DDFAEB10D52898D4F986 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,10 +110,10 @@
 			children = (
 				B8DBF3761A0E3096007D0A96 /* AppDelegate.h */,
 				B8DBF3771A0E3096007D0A96 /* AppDelegate.m */,
-				B8DBF3791A0E3096007D0A96 /* FirstViewController.h */,
-				B8DBF37A1A0E3096007D0A96 /* FirstViewController.m */,
-				B8DBF37C1A0E3096007D0A96 /* SecondViewController.h */,
-				B8DBF37D1A0E3096007D0A96 /* SecondViewController.m */,
+				B8DBF3791A0E3096007D0A96 /* CameraViewController.h */,
+				B8DBF37A1A0E3096007D0A96 /* CameraViewController.m */,
+				B8DBF37C1A0E3096007D0A96 /* RouletteViewController.h */,
+				B8DBF37D1A0E3096007D0A96 /* RouletteViewController.m */,
 				B8DBF37F1A0E3096007D0A96 /* Main.storyboard */,
 				B8DBF3821A0E3096007D0A96 /* Images.xcassets */,
 				B8DBF3841A0E3096007D0A96 /* LaunchScreen.xib */,
@@ -131,9 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8DBF3951A0E3097007D0A96 /* Build configuration list for PBXNativeTarget "SnapRoulette" */;
 			buildPhases = (
+				EDD3204BEC974CDD205F0AAC /* Check Pods Manifest.lock */,
 				B8DBF36B1A0E3096007D0A96 /* Sources */,
 				B8DBF36C1A0E3096007D0A96 /* Frameworks */,
 				B8DBF36D1A0E3096007D0A96 /* Resources */,
+				B1FB885A60C4FF0F40ACA02E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -173,6 +199,7 @@
 				TargetAttributes = {
 					B8DBF36E1A0E3096007D0A96 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = K6MAN39573;
 					};
 					B8DBF38A1A0E3097007D0A96 = {
 						CreatedOnToolsVersion = 6.1;
@@ -219,14 +246,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B1FB885A60C4FF0F40ACA02E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDD3204BEC974CDD205F0AAC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B8DBF36B1A0E3096007D0A96 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8DBF37E1A0E3096007D0A96 /* SecondViewController.m in Sources */,
+				B8DBF37E1A0E3096007D0A96 /* RouletteViewController.m in Sources */,
 				B8DBF3781A0E3096007D0A96 /* AppDelegate.m in Sources */,
-				B8DBF37B1A0E3096007D0A96 /* FirstViewController.m in Sources */,
+				B8DBF37B1A0E3096007D0A96 /* CameraViewController.m in Sources */,
 				B8DBF3751A0E3096007D0A96 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,9 +407,12 @@
 		};
 		B8DBF3961A0E3097007D0A96 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08621E5B150FD0F5559418A9 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SnapRoulette/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -357,9 +420,12 @@
 		};
 		B8DBF3971A0E3097007D0A96 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BACDBB5F5F81ADCE95CF25A /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SnapRoulette/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -418,6 +484,7 @@
 				B8DBF3971A0E3097007D0A96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B8DBF3981A0E3097007D0A96 /* Build configuration list for PBXNativeTarget "SnapRouletteTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +493,7 @@
 				B8DBF39A1A0E3097007D0A96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
