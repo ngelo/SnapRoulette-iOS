@@ -35,7 +35,7 @@
         // Display a HUD to the user to indicate that the span is being sent.
         MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
         hud.mode = MBProgressHUDModeIndeterminate;
-        hud.labelText = @"Sending Photo";
+        hud.labelText = @"Sending Snap";
         
         // Create a file for the image that was just taken.
         PFFile *imageFile = [PFFile fileWithName:@"snap.jpg" data:UIImageJPEGRepresentation(processedImage, 0.8)];
